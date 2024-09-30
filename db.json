@@ -1,0 +1,68 @@
+{
+  "topics": [
+    {
+      "id": 1,
+      "title": "HTML/CSS",
+      "background-color": "#2F4858",
+      "icon": ["/html.svg", "/css.svg"],
+      "isIconBlack": false,
+      "discription": "웹 페이지의 구조와 콘텐츠를 정의하고 디자인과 스타일을 지정하는 기술"
+    },
+    {
+      "id": 2,
+      "title": "JavaScript",
+      "background-color": "#006B5E",
+      "icon": ["/js.svg"],
+      "isIconBlack": false,
+      "discription": "객체 기반의 스크립트 프로그래밍 언어"
+    },
+    {
+      "id": 3,
+      "title": "프레임워크 및 라이브러리",
+      "background-color": "#004162",
+      "icon": ["/vue.svg", "/react.svg"],
+      "isIconBlack": false,
+      "discription": "기본 구조와 가이드라인을 제공하여 개발을 더 쉽게 해주는 도구"
+    },
+    {
+      "id": 4,
+      "title": "네트워크",
+      "background-color": "#1C6E7D",
+      "icon": ["/network.svg"],
+      "isIconBlack": true,
+      "discription": "여러 장치들이 데이터를 서로 주고받기 위해 연결된 시스템"
+    },
+    {
+      "id": 5,
+      "title": "운영체제",
+      "background-color": "#9BAEBC",
+      "icon": ["/linux1.svg"],
+      "isIconBlack": false,
+      "discription": "사용자와 프로그램 간의 상호작용을 제어하는 소프트웨어 시스템"
+    },
+    {
+      "id": 6,
+      "title": "알고리즘 및 자료구조",
+      "background-color": "#4B7EA8",
+      "icon": ["/algorithm.svg"],
+      "isIconBlack": true,
+      "discription": "데이터를 효율적으로 저장하고 관리하기 위한 구조적 방식"
+    },
+    {
+      "id": 7,
+      "title": "소프트웨어 아키택처",
+      "background-color": "#8D7257",
+      "icon": ["/analysis-architecture.svg"],
+      "isIconBlack": true,
+      "discription": "시스템의 구조와 구성 요소들 간의 상호작용을 정의하는 설계"
+    },
+    {
+      "id": 8,
+      "title": "클라우드와 배포",
+      "background-color": "#895E79",
+      "icon": ["/clouddata2.svg"],
+      "isIconBlack": true,
+      "discription": "인터넷을 통해 애플리케이션을 실행할 수 있는 원격 서버 기반의 서비스"
+    }
+  ]
+}

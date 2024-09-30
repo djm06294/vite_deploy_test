@@ -1,0 +1,20 @@
+.swiperWrap {
+  /* border: 3px solid gray; */
+  position: relative;
+}
+.swiper {
+  /* border: 1px solid red; */
+  box-shadow: 0 0 16px var(--c-gray);
+  border-radius: 2rem;
+  position: absolute;
+  width: 60vw;
+  height: 35vw;
+
+  left: 50%;
+  top: 10rem;
+  transform: translateX(-50%);
+}
+.swiperWrap img {
+  width: 20rem;
+  object-fit: contain;
+}

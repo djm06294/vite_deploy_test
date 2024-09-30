@@ -1,0 +1,61 @@
+* {
+  --color-main: #e93737;
+  --color-primaryDark: #d31717;
+  --color-primary: ##e93737;
+  --color-primaryLight: #f39191;
+  --color-primaryPale: ##fdeded;
+
+  --c-black: #070809;
+  --c-grayDark: #343b42;
+  --c-gray: #4a545f;
+  --c-grayLight: #798897;
+  --c-grayPale: #ced4d9;
+  --c-silver: #ebedef;
+  --c-white: #ffffff;
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  font-style: normal;
+  text-decoration: none;
+}
+button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+}
+input {
+  border: none;
+}
+input:active {
+  border: none;
+  background-color: transparent;
+}
+
+*::-webkit-scrollbar {
+  display: none;
+}
+* {
+  -ms-overflow-style: none; /* 인터넷 익스플로러 */
+  scrollbar-width: none; /* 파이어폭스 */
+}
+
+.mw {
+  width: calc(100vw - 10rem);
+  margin: auto;
+}
+
+.mw2 {
+  width: 50%;
+  margin: auto;
+}
+
+body {
+  margin-top: 6rem;
+}
+@media (max-width: 800px) {
+  .mw2 {
+    width: 80%;
+  }
+}

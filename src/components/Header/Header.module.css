@@ -1,0 +1,73 @@
+header {
+  /* border: 1px solid black; */
+  background-color: var(--color-main);
+  /* box-shadow: 0 0 2px black; */
+  height: 6rem;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+}
+
+/* .header > * {
+  border: 1px solid black;
+} */
+.header {
+  /* border: 1px solid black; */
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/*  logo  */
+#logoWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5px;
+  color: white;
+  cursor: pointer;
+}
+
+#logoWrap .logo {
+  font-size: 2.3rem;
+}
+
+#logoWrap i {
+  /* border: 1px solid black; */
+  font-size: 2rem;
+  font-weight: 900;
+  margin-left: 10px;
+}
+
+/* nav */
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav .searchBar {
+  background-color: white;
+  border-radius: 2rem;
+  /* padding: 3px 10px 5px 10px; */
+  padding: 5px 20px;
+  color: gray;
+}
+nav .searchBar input {
+  width: 15rem;
+  margin: 0 10px;
+  font-size: 1.5rem;
+}
+
+nav .b2tBtn {
+  background-color: black;
+  border-radius: 2rem;
+  padding: 5px 20px;
+}
+nav .b2tBtn button {
+  font-size: 1.5rem;
+  color: white;
+}
+.hidden {
+  display: none;
+}

@@ -1,0 +1,32 @@
+.slide {
+  /* border: 2px solid gray; */
+  height: 100%;
+
+  padding: 3rem;
+}
+
+.slide h4 {
+  padding-bottom: 1rem;
+  font-size: 2rem;
+  color: var(--c-grayPale);
+}
+
+.slide .question,
+.slide .options button {
+  font-size: 1.3rem;
+  padding-bottom: 1rem;
+}
+
+.slide .options {
+  border: 1px solid red;
+}
+
+.slide .options button {
+  width: 100%;
+  box-shadow: 0 0 4px var(--c-gray);
+  border-radius: 1rem;
+  height: 4rem;
+  margin-bottom: 2rem;
+
+  text-align: left;
+}

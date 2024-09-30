@@ -1,0 +1,29 @@
+.topic {
+  /* border: 1px solid black; */
+  margin: 0.5rem;
+  width: 30%;
+  min-width: 282px;
+  max-width: 500px;
+  cursor: pointer;
+}
+.imgWrap {
+  border-radius: 1rem;
+  background-color: #2f4858;
+  height: 200px;
+  margin-bottom: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgWrap img {
+  /* border: 1px solid red; */
+  height: 110px;
+  object-fit: contain;
+  margin: 1rem;
+}
+
+.topic p {
+  color: gray;
+}

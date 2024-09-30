@@ -1,0 +1,45 @@
+.innerBody {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.topicsBody {
+  /* border: 3px solid gray; */
+  padding: 4rem 0;
+}
+.topicsBody h2 {
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+.topicsBody .backBtn {
+  border: 3px solid var(--color-main);
+  border-radius: 2rem;
+  width: 2rem;
+  height: 2rem;
+  padding: 0.3rem;
+
+  color: var(--color-main);
+  content: "\f060";
+  display: inline-block;
+  font-family: "Font Awesome 5 Free";
+  text-align: center;
+  line-height: 2rem; /* height와 같은 값을 줘서 중앙 정렬 */
+
+  margin-right: 2rem;
+  opacity: 0.5;
+  transition: 0.5s;
+  cursor: pointer;
+}
+.topicsBody .backBtn:hover {
+  transform: translateX(-10px);
+  transition: 0.5s;
+}
+
+@media (max-width: 1000px) {
+  .innerBody {
+    grid-template-columns: 1fr 1fr;
+  }
+}

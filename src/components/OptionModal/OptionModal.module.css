@@ -1,0 +1,100 @@
+.modalBackground {
+  background-color: black;
+  opacity: 60%;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  position: absolute;
+  z-index: 100;
+}
+
+.optionModal {
+  background-color: white;
+  padding: 2rem;
+  border: 2px solid gray;
+  border-radius: 3rem;
+  position: absolute;
+  width: 40%;
+  top: 20%;
+  left: 30%;
+
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-between; */
+  align-items: center;
+  z-index: 200;
+
+  font-size: 1.4rem;
+}
+
+.optionModal h3 {
+  font-size: 2rem;
+  color: #343b42;
+}
+
+.optionModal label {
+  /* border: 1px solid black; */
+  padding: 3rem 5px 1rem;
+  width: 100%;
+  color: #4a545f;
+}
+
+#probLevel,
+#probNum {
+  /* border: 1px solid black; */
+  border: none;
+  border-radius: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, 0.4);
+  width: 100%;
+  padding: 1.5rem;
+
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+#probType {
+  /* border: 1px solid black; */
+  width: 100%;
+}
+
+#probType button {
+  background-color: #ebedef;
+  border-radius: 2rem;
+
+  padding: 0.8rem 1rem;
+  margin-right: 5px;
+
+  font-size: 1.3rem;
+  color: #798897;
+}
+
+#probType button:hover,
+#probType button.active {
+  background-color: #fdeded;
+  color: var(--color-main);
+}
+
+#probType button:active {
+  transform: translateY(4px);
+}
+
+.submitBtn {
+  background-color: var(--color-main);
+  border-radius: 2rem;
+  width: 100%;
+
+  padding: 0.8rem 1rem;
+  margin-top: 3rem;
+
+  font-size: 1.3rem;
+  color: white;
+}
+
+.closeBtn {
+  position: absolute;
+  top: 2.5rem;
+  right: 3rem;
+  font-size: 2rem;
+  color: #ced4d9;
+  cursor: pointer;
+}
