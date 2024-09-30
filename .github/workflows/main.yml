@@ -3,7 +3,7 @@ name: Build and Deploy
 on:
   push:
     branches:
-      - main # 'main' 브랜치에 푸시될 때만 실행
+      - main # 'main' 브랜치에 push가 발생할 때만 실행
 
 jobs:
   build-and-deploy:
@@ -27,6 +27,9 @@ jobs:
 
       - name: Build the project
         run: npm run build
+
+      - name: Add .nojekyll
+        run: touch dist/.nojekyll
 
       - name: Deploy to gh-pages
         env:
