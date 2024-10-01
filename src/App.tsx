@@ -1,4 +1,4 @@
-import { Route, Routes } from "react-router-dom";
+import { HashRouter as Router, Route, Routes } from "react-router-dom";
 // import { useState } from 'react'
 import "./styles/App.css";
 import HomePage from "./pages/HomePage/HomePage";
@@ -9,14 +9,14 @@ function App() {
   // const [count, setCount] = useState(0)
 
   return (
-    <>
+    <Router>
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/topics" element={<TopicsPage />} />
         <Route path="/quiz" element={<QuizPage />} />
         <Route path="/loading" element={<LoadingPage />} />
       </Routes>
-    </>
+    </Router>
   );
 }
 
