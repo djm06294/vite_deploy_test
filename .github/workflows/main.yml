@@ -8,6 +8,8 @@ on:
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
+    env:
+      VITE_OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
 
     steps:
       - name: Checkout repository
@@ -22,6 +24,7 @@ jobs:
         run: npm install
 
       - name: Create .env file from GitHub Secrets
+        uses: actions/checkout@v3
         run: |
           echo "VITE_OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> .env
 
