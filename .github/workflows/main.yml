@@ -26,11 +26,11 @@ jobs:
         run: |
           echo "VITE_OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> .env
 
-      - name: Build the project
-        run: npm run build
+      # - name: Build the project
+      #   run: npm run build
 
-      - name: Add .nojekyll
-        run: touch dist/.nojekyll
+      # - name: Add .nojekyll
+      #   run: touch dist/.nojekyll
 
       # - name: Deploy to gh-pages
       #   env:
@@ -40,11 +40,13 @@ jobs:
       #     git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
       #     git remote set-url origin https://${GITHUB_TOKEN}@github.com/djm06294/vite_deploy_test.git
       #     git subtree push --prefix dist origin gh-pages
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
-          allow_empty_commit: false
+
+      # - name: Deploy to GitHub Pages
+      #   uses: peaceiris/actions-gh-pages@v3
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     publish_dir: ./dist
+      #     publish_branch: gh-pages
+      #     allow_empty_commit: false
+
 ##
