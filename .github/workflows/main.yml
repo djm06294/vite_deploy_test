@@ -21,8 +21,8 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # - name: Create .env file from GitHub Secrets
-      - uses: actions/checkout@v3
+      - name: Create .env file from GitHub Secrets
+        # - uses: actions/checkout@v3
         run: |
           echo "VITE_OPENAI_API_KEY=${{ secrets.OPENAI_API_KEY }}" >> .env
         env:
