@@ -28,7 +28,6 @@ jobs:
 
       - name: Build the project
         run: npm run build
-        env:
 
       - name: Add .nojekyll
         run: touch dist/.nojekyll
